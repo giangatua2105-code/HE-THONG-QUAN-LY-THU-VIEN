@@ -1,0 +1,16 @@
+TRIỂN KHAI MÁY ẢO UBUNTU — LIBRARYHUB
+
+1. Tải ZIP vào Ubuntu, giải nén để có thư mục LibraryUbuntu.
+2. Mở Terminal trong LibraryUbuntu.
+3. Chạy:
+   bash scripts/01-install-docker.sh
+   bash scripts/02-deploy.sh
+4. Mở Firefox trên Ubuntu: http://localhost:8080
+5. Đọc .env để lấy mật khẩu admin/thủ thư/độc giả.
+6. Chạy:
+   bash scripts/03-check.sh
+7. Đọc README_UBUNTU.md để demo pgAdmin/Grafana/LogQL, backup và GitHub.
+
+Database Ubuntu là database mới, tách khỏi Windows. Nếu cần dữ liệu Windows,
+đọc mục 6 README_UBUNTU.md trước khi khởi chạy app.
+Không dùng docker compose down -v nếu cần giữ dữ liệu.
